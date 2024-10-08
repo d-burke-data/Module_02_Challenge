@@ -57,7 +57,7 @@ Sub QuarterlySummaries()
                     .Cells(CurrentSummaryRow, "K").NumberFormat = "0.00%"
                     
                     ' CONDITIONAL FORMATTING
-                    ' NOTE: The following code was collected via the Record Macro feature and modified to work with the QuarterSummaries subroutine
+                    ' NOTE: The following code was collected via the Record Macro feature and modified to work with the QuarterlySummaries subroutine
                     ' Quarterly Change conditional formatting
                     With .Cells(CurrentSummaryRow, "J")
                         .FormatConditions.Add Type:=xlCellValue, Operator:=xlLess, _
